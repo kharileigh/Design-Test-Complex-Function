@@ -25,3 +25,4 @@ def age_checker(dob):
     # -------- GIVEN INPUT -- meets age requirements, access granted -- doesn't meet, access denied
     if current_age < 16:
         return f"Access denied, your current age is: {current_age} years and the required age is 16"
+    return "Access granted"

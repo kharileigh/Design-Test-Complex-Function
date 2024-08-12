@@ -18,3 +18,7 @@ def test_age_checker_denied():
     assert age_checker("2010-11-04") == "Access denied, your current age is: 14 years and the required age is 16"
 
 
+# ------ ACCESS GRANTED
+def test_age_checker_granted():
+
+    assert age_checker("2007-04-04") == "Access granted"
